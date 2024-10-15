@@ -1,8 +1,10 @@
 # How to use xml_to_excel.py
-The python program is run through command line using the the following:
-
+The python program is run through the bash command line using the the following: 
+'python xml_to_excel_limited.py <input_xml_file> <output_excel_file> <number_of_records> <record_tag>'
 
 The program turns the specified amount of rows into an excel file.
+
+It should be noted that the input_xml_file should end with the extension .xml and the output_excel_file should end with .xlsx. The record tag should always be row.
 
 # Findings
 - Individual entries are separated by a 'row' tag which is defined in the python file to parse the data.
