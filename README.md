@@ -14,3 +14,4 @@ It should be noted that the input_xml_file should end with the extension .xml an
 - The initial data was hard to read in due to an innate 'row' tag that was not defined in the documentation. The row tag separates each entry in the xml file. As such the tag had to be read and determined manually.
 - The records in each dataset are not aligned with records of each other dataset. This is because they are independent collections of records sorted by their creation dates or IDs. For example, the first 10 entries in the Votes datset do not correspond to the first 10 posts in the Posts dataset because votes can occur at any time and thus are recorded separately.
 - To align the datasets we have to select a random sample of posts to get a representative sample from the dataset.
+- Comments are not being joined correctly on the posts data.
